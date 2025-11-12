@@ -4,7 +4,9 @@ on: push
 
 jobs:
   first_job:
-  runs-on: ubuntu-latest
-  steps:
-  - name: print the welcome message
-    run: echo "Welcome to All"
+    runs-on: ubuntu-latest
+    steps:
+    - name: print the welcome message
+      run: echo "Welcome to All"
+
+    
